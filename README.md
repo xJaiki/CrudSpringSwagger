@@ -1,2 +1,2 @@
 # CrudSpringSwagger
-PRoject with CRUD operation using Spring and Swagger 😎
+Project with CRUD operation using Spring and Swagger 😎
