@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.jaiki.CRUDSpringSwagger.repository.CustomerRepository;
+
 
 @RestController
 public class CustomerController {
@@ -56,10 +58,3 @@ public class CustomerController {
 }
 
 	
-	
-	
-	
-	
-	
-	
-}

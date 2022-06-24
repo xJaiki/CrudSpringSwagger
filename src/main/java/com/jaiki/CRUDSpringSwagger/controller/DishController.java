@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.jaiki.CRUDSpringSwagger.model.Dish;
+import com.jaiki.CRUDSpringSwagger.repository.DishRepository;
+
 @RestController
 public class DishController {
 
@@ -22,7 +25,7 @@ public class DishController {
 
 
 	@GetMapping("/dish")
-	Iterable <Dish> getDish(){
+	Iterable<Dish> getDish(){
 		return dishRepository.findAll();
 	}
 	
@@ -51,12 +54,4 @@ public class DishController {
 	
 	return dishRepository.save(dishToUpdate);
 	}
-}
-	
-	
-	
-	
-	
-	
-	
 }
