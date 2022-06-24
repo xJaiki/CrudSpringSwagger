@@ -1,0 +1,13 @@
+package com.jaiki.CRUDSpringSwagger;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CrudSpringSwaggerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CrudSpringSwaggerApplication.class, args);
+	}
+
+}
