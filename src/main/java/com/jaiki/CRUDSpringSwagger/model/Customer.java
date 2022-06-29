@@ -49,10 +49,10 @@ public class Customer {
 	public void setLastname(String lastname) {
 		this.lastname = lastname;
 	}
-	public int getEta() {
+	public int getAge() {
 		return age;
 	}
-	public void setEta(int age) {
+	public void setAge(int age) {
 		this.age = age;
 	}
 
