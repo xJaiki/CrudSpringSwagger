@@ -16,3 +16,6 @@ with your database info!!
 
 ## Swagger 😎
 To see the Swagger documentation go [here](http://localhost:8080/swagger-ui/index.html#/)
+
+## Note
+This project is been made as a learning tool for Spring and Swagger
